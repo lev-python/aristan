@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>КиноАрыстан</title>
 	<meta name="description" content="KinoAristan the best sinema web site">
-	<meta name="keywords" content="KinoAristan, kino">
+	<meta name="keywords" content="KinoAristan, kino, кино">
 	<link rel="stylesheet" href="assets/css/style.css">
 
 </head>
@@ -23,9 +23,9 @@
 			<div class="menubar">
 				<ul class="menu">
 					<li><a href="index.html">Главная</a></li>
-					<li class="selected"><a href="films.html">Фильмы</a></li>
+					<li><a href="films.html">Фильмы</a></li>
 					<li><a href="#">Сериалы</a></li>
-					<li><a href="rating.html">Рейтинг фильмов</a></li>
+					<li class="selected"><a href="#">Рейтинг фильмов</a></li>
 					<li><a href="contact.html">Контакты</a></li>
 				</ul>
 			</div>
@@ -69,59 +69,47 @@
 				</div>
 			</div>
 			<div class="content">
-				<h1>Интерстеллар</h1>
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/qcPfI0y7wRU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<table>
+						<tr>
+							<th></th>
+							<th>Фильмы</th>
+							<th class="center">Год</th>
+							<th class="center">Рейтинг</th>
+						</tr>
+						<tr>
+							<td class="center"><img src="assets/img/inter.png"></td>
+							<td>1. <a href="show.html">Интерселлар</a></td>
+							<td class="center">2014</td>
+							<td class="center rating">8.1/10</td>
+						</tr>
+						<tr>
+							<td class="center"><img src="assets/img/max.png"></td>
+							<td>2. <a href="#">Безумный макс</a></td>
+							<td class="center">2015</td>
+							<td class="center rating">7.8/10</td>
+						</tr>
+						<tr>
+							<td class="center"><img src="assets/img/matrix.png"></td>
+							<td>3. <a href="#">Матрица</a></td>
+							<td class="center">1999</td>
+							<td class="center rating">8.5/10</td>
+						</tr>
+						<tr>
+							<td class="center"><img src="assets/img/cloud.png"></td>
+							<td>4. <a href="#">Облачный атлас</a></td>
+							<td class="center">2012</td>
+							<td class="center rating">7.7/10</td>
+						</tr>
 
-				<div class="info_film_page">
-					
-					<span class="label">Рейтинг:</span><span class="value">8.1/10</span>
-					<span class="label">Год:</span><span class="value">2014</span>
-					<span class="label">Режисер:</span><span class="value">Кристовер Нолан</span>
-
-				</div>
-				<hr>
-				<h2>Описание</h2>
-				<div class="description_film">
-					<img src="assets/img/inter.png">
-					Наше время на Земле подошло к концу, команда исследователей берет на себя самую важную миссию в истории человечества; путешествуя за пределами нашей галактики, чтобы узнать есть ли у человечества будущее среди звезд.
-				</div>
-
-				<hr>
-				<h2>Отзывы</h2>
-				<div class="reviews">
-					<div class="review_name">
-						Алмас
-					</div>
-					<div class="review_text">
-						Отличный фильм! Всем рекомендую
-					</div>
-				</div>
-				<div class="reviews">
-					<div class="review_name">
-						Лев
-					</div>
-					<div class="review_text">
-						После фильма Начало, я с не терпением ждал еще работ от Кристофера Нолана. Интерстеллар меня впечатлил.
-					</div>
-				</div>
-				<div class="send">
-					<form  method="post"  action="#" id="reviews">
-						<input type="text" name="reviews_name" placeholder="Ваше имя">
-						<textarea name="review_text"></textarea>
-						<input type="submit"  value="отправить">
-					</form>
-				</div>
+					</table>
 			</div>
 
 		</div>
-
-
-
 		<div class="footer">
 			<p>
 				<a href="films.html">Фильмы</a>|
 				<a href="#">Сериалы</a>|
-				<a href="rating.html">Рейтинг</a>|
+				<a href="#">Рейтинг</a>|
 				<a href="contact.html">Контакты</a>|
 			</p>
 			<p>
@@ -133,3 +121,7 @@
 
 </body>
 </html>
+							<!-- <td><img src="assets/img/max.png"></td>
+							<td><img src="assets/img/matrix.png"></td>
+							<td><img src="assets/img/cloud.png"></td>
+ -->
