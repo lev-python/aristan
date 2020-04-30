@@ -251,6 +251,33 @@ ul.menu li a:hover {
   width: 500px;
 }
 
+.info_film{
+	margin-bottom: 5%;
+	background-color: #f4f4f4; 
+	padding: 5%;
+	height: 270px;	 
+}
+.info_film img{
+	float: left;
+	margin-right: 2%;
+	border-radius: 5px;
+	border: solid 5px #dad7d5;
+	width: 25%;
+}
+.button{
+	background-color: #FC0011;
+	border-radius: 5px;
+	padding: 2%;
+	color: white;
+	float: right;
+	margin-top: 5%;
+	clear: both;
+	font-size: 0,8em;
+}
+.button a{
+	color: white;
+}
+
 table{
 	width: 100%;
 	border: solid 1px #f4f4f4;
